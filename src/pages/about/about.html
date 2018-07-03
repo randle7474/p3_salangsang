@@ -1,11 +1,38 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Library
+      Quotes Library
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+    <h5> Select your favorite Quotes</h5>
+
+    <ion-list>
+        <ion-item>
+            <button ion-button full>
+                <ion-icon name="book" (click) = "showBook()"></ion-icon>  Inspirational
+            </button>       
+        </ion-item>
+        <ion-item>
+            <button ion-button full>
+                <ion-icon name="rainy" (click) = "showRainy()"></ion-icon>  Ability
+            </button>
+              
+          </ion-item>
+          <ion-item>
+              <button ion-button full>
+                  <ion-icon name="body" (click) = "showBody()"></ion-icon>  Enthusiasm
+                </button>
+                
+            </ion-item>
+            <ion-item>
+                <button ion-button full>
+                    <ion-icon name="happy" (click) = "showHappy"></ion-icon>  Motivational
+                  </button>
+                  
+              </ion-item>
+      </ion-list>
 
 </ion-content>
