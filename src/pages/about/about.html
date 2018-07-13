@@ -11,25 +11,23 @@
 
     <ion-list>
         <ion-item>
-            <button ion-button full>
-                <ion-icon name="book" (click) = "showBook()"></ion-icon>  Inspirational
-            </button>       
+            <button ion-button full [navPush] = "showInspirational" [navParams] = "Quotes"> Inspirational </button>   
         </ion-item>
         <ion-item>
             <button ion-button full>
-                <ion-icon name="rainy" (click) = "showRainy()"></ion-icon>  Ability
+                <ion-icon name="rainy" (click) = "showAbility()"></ion-icon>  Ability
             </button>
               
           </ion-item>
           <ion-item>
               <button ion-button full>
-                  <ion-icon name="body" (click) = "showBody()"></ion-icon>  Enthusiasm
+                  <ion-icon name="body" (click) = "showEnthusiasm()"></ion-icon>  Enthusiasm
                 </button>
                 
             </ion-item>
             <ion-item>
                 <button ion-button full>
-                    <ion-icon name="happy" (click) = "showHappy"></ion-icon>  Motivational
+                    <ion-icon name="happy" (click) = "showMotivational"></ion-icon>  Motivational
                   </button>
                   
               </ion-item>

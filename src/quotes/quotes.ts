@@ -1,4 +1,4 @@
-export default [
+export  default [
     {
       category: 'inspirational',
       quotes: [
@@ -37,4 +37,4 @@ export default [
       icon: 'bicycle'
     }
   ];
-    
+

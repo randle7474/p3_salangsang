@@ -10,12 +10,15 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     HomePage,
-    TabsPage
+    TabsPage,
+  
+  
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     AboutPage,
     HomePage,
-    TabsPage
+    TabsPage,
+
+
   ],
   providers: [
     StatusBar,
@@ -35,3 +40,5 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ]
 })
 export class AppModule {}
+
+
